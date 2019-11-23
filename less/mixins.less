@@ -1,10 +1,17 @@
 // Mixins Here
-.flex-center{
-    display:flex;
-    width:100%;
-    justify-content: center;
+.flex-center {
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
-.desktop-padding{
-    padding:20px 0;
+.padding {
+  padding: 20px 0;
+}
+
+.styled-btn(@radius, @bgcolor) {
+  border-radius: @radius;
+  background-color: @bgcolor;
+  width:@width;
+  color:@color;
 }

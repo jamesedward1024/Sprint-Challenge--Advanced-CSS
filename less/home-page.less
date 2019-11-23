@@ -56,9 +56,6 @@
       p {
         margin-bottom: 26px;
       }
-
-      .btn {
-      }
     }
 
     .walk-img {
@@ -77,4 +74,18 @@
 .banner-img{
   width:100%;
   border-radius:5px;
+}
+
+.styled-btn(@radius, @bgcolor, @width, @color) {
+  border-radius: @radius;
+  background-color: @bgcolor;
+  width:@width;
+  color:@color;
+}
+
+.btn {
+  .styled-btn(5px; @btn-bg-color; fit-content; #fff;);
+  padding:5px 15px;
+  font-size:1.5rem;
+  
 }

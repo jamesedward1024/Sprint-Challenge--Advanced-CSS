@@ -1,4 +1,11 @@
-@import "mixins.less";
+.flex-center {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.padding {
+  padding: 20px 0;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -168,8 +175,8 @@ a {
   margin: 0 auto;
 }
 .site-header {
+  padding: 20px 0;
   width: 100%;
-  padding-top: 20px;
   background-color: #F6F6F6;
 }
 .site-header .site-title {
@@ -250,4 +257,12 @@ footer {
 .banner-img {
   width: 100%;
   border-radius: 5px;
+}
+.btn {
+  border-radius: 5px;
+  background-color: #22283A;
+  width: fit-content;
+  color: #fff;
+  padding: 5px 15px;
+  font-size: 1.5rem;
 }
