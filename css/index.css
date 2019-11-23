@@ -143,7 +143,7 @@ html {
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
-  color: #5E6164;
+  color: #5e6164;
 }
 h1,
 h2,
@@ -151,7 +151,7 @@ h3,
 h4,
 h5 {
   font-family: 'Russo One', sans-serif;
-  color: #23293B;
+  color: #23293b;
 }
 h1 {
   font-size: 3.5rem;
@@ -177,7 +177,7 @@ a {
 .site-header {
   padding: 20px 0;
   width: 100%;
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
 }
 .site-header .site-title {
   text-align: center;
@@ -190,7 +190,7 @@ a {
 }
 .site-header .site-nav .nav-links {
   text-decoration: none;
-  color: #454A59;
+  color: #454a59;
   padding: 5px 20px 15px 20px;
 }
 footer {
@@ -286,7 +286,7 @@ footer {
 }
 .btn {
   border-radius: 5px;
-  background-color: #22283A;
+  background-color: #22283a;
   width: fit-content;
   color: #fff;
   padding: 10px 25px;
@@ -301,7 +301,7 @@ footer {
 @media (max-width: 500px) {
   .btn {
     border-radius: 5px;
-    background-color: #22283A;
+    background-color: #22283a;
     width: 100%;
     color: #fff;
     padding: 25px 25px;
