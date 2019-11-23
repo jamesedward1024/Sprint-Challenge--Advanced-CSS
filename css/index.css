@@ -146,6 +146,9 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #23293B;
 }
+h1 {
+  font-size: 3.5rem;
+}
 h2 {
   font-size: 3.2rem;
 }
@@ -156,10 +159,32 @@ p {
   font-size: 1.6rem;
   line-height: 1.4;
 }
+a {
+  font-size: 1.5rem;
+}
 .container {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+.site-header {
+  width: 100%;
+  padding-top: 20px;
+  background-color: #F6F6F6;
+}
+.site-header .site-title {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.site-header .site-nav {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.site-header .site-nav .nav-links {
+  text-decoration: none;
+  color: #454A59;
+  padding: 5px 20px 15px 20px;
 }
 footer {
   color: #22283B;
@@ -221,4 +246,8 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+.banner-img {
+  width: 100%;
+  border-radius: 5px;
 }
