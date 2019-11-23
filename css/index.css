@@ -337,33 +337,3 @@ footer {
   border: none;
   background-color: #f6f6f6;
 }
-.btn {
-  border-radius: 5px;
-  background-color: #22283a;
-  width: fit-content;
-  color: #fff;
-  padding: 10px 25px;
-  font-size: 1.5rem;
-}
-.btn:hover {
-  border-radius: 5px;
-  background-color: white;
-  width: fit-content;
-  color: black;
-}
-@media (max-width: 500px) {
-  .btn {
-    border-radius: 5px;
-    background-color: #22283a;
-    width: 100%;
-    color: #fff;
-    padding: 25px 25px;
-    text-align: center;
-  }
-  .btn:hover {
-    border-radius: 5px;
-    background-color: white;
-    width: 100%;
-    color: black;
-  }
-}
