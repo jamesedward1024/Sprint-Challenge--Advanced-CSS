@@ -1,1 +1,27 @@
 // Mixins Here
+.flex-center {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.padding {
+  padding: 20px 0;
+}
+
+.styled-btn(@radius, @bgcolor, @width, @color) {
+  border-radius: @radius;
+  background-color: @bgcolor;
+  width: @width;
+  color: @color;
+  &:hover {
+    border-radius: @radius;
+    background-color: white;
+    width: @width;
+    color: black;
+  }
+}
+
+.btn-font(@top:0; @sides:0) {
+  padding: @arguments;
+}
